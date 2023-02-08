@@ -1,12 +1,13 @@
 package Jugador;
 
-public class jugador {
+public class Jugador {
 	
 //-------------VARIABLES DE LA CLASE JUGADOR------------------//
 	
         private int dorsal;
-        private int numeroTarjetasAmarillas;
+    	private int numeroTarjetasAmarillas;
         private int numeroTarjetasRojas;
+        	
 
 //----------------MÉTODOS DE LA CLASE JUGADOR-----------------//
 
@@ -48,7 +49,23 @@ public class jugador {
 
 		public void setDorsal(int dorsal) {
 			this.dorsal = dorsal;
-		}            
+		}    
+	    public int getNumeroTarjetasAmarillas() {
+				return numeroTarjetasAmarillas;
+			}
+
+		public void setNumeroTarjetasAmarillas(int numeroTarjetasAmarillas) {
+				this.numeroTarjetasAmarillas = numeroTarjetasAmarillas;
+			}
+
+		public int getNumeroTarjetasRojas() {
+				return numeroTarjetasRojas;
+			}
+
+		public void setNumeroTarjetasRojas(int numeroTarjetasRojas) {
+				this.numeroTarjetasRojas = numeroTarjetasRojas;
+			}
+
 
 }
 

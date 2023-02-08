@@ -1,6 +1,6 @@
 package Soldado;
 
-public class soldado {
+public class Soldado {
 //-------------VARIABLES DE LA CLASE SOLDADO------------------//
 	
 	   private boolean estaMuerto;
@@ -19,7 +19,7 @@ public class soldado {
            return false;
 }
 	
-       public void disparar(soldado sol) {
+       public void disparar(Soldado sol) {
 
            this.numeroBalas--;
 
