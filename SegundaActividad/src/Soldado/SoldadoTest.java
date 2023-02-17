@@ -1,12 +1,23 @@
+/**
+La clase SoldadoTest es una clase de prueba unitaria para la clase Soldado.
+*/
+
 package Soldado;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-
 import org.junit.jupiter.api.Test;
 
+
+
 public class SoldadoTest {
+	
+	/**
+	 * Prueba unitaria del método puedeDisparar de la clase Soldado.
+	 * Comprueba que un soldado puede disparar si tiene balas y no puede si no tiene balas.
+	 */
+	
     @Test
     public void testPuedeDisparar() {
         Soldado s = new Soldado();
@@ -16,6 +27,11 @@ public class SoldadoTest {
         s.setNumeroBalas(0);
         assertFalse(s.puedeDisparar());
     }
+    
+    /**
+     * Prueba unitaria del método disparar de la clase Soldado.
+     * Comprueba que un soldado puede disparar a otro soldado y este muere si se queda sin balas.
+     */
 
     @Test
     public void testDisparar() {

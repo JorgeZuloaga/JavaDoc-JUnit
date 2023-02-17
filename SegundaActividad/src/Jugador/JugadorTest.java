@@ -7,6 +7,12 @@ import static org.junit.Assert.assertTrue;
 import org.junit.jupiter.api.Test;
 
 public class JugadorTest {
+	
+	/**
+     * Prueba el método ponerDorsal de la clase Jugador. 
+     * Comprueba que se asigna correctamente el valor del dorsal al jugador.
+     * Comprueba que, si se introduce un valor fuera del rango permitido, se asigna el valor -1 al dorsal.
+     */
 
 	    @Test
 	    public void testPonerDorsal() {
@@ -17,6 +23,12 @@ public class JugadorTest {
 	        j.ponerDorsal(0);
 	        assertEquals(-1, j.getDorsal());
 	    }
+	    
+	    /**
+	     * Prueba el método estaExpulsado de la clase Jugador. 
+	     * Comprueba que el método devuelve true si el jugador tiene dos tarjetas amarillas o una tarjeta roja. 
+	     * Comprueba que el método devuelve false si el jugador tiene una tarjeta amarilla y ninguna tarjeta roja.
+	     */
 
 	    @Test
 	    public void testEstaExpulsado() {
@@ -35,4 +47,3 @@ public class JugadorTest {
 	    }
 	}
 
-}
