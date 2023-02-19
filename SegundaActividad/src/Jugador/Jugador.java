@@ -42,12 +42,28 @@ public class Jugador {
         }
 //--------------GET Y SET PARA VARIBLES PRIVADAS-------------//
         
-		public int getDorsal() {
+        public int getDorsal() {
 			return dorsal;
 		}
 
 		public void setDorsal(int dorsal) {
 			this.dorsal = dorsal;
-		}            
+		}
+		public int getNumeroTarjetasAmarillas() {
+			return numeroTarjetasAmarillas;
+		}
+		public void setNumeroTarjetasAmarillas(int numeroTarjetasAmarillas) {
+			this.numeroTarjetasAmarillas = numeroTarjetasAmarillas;
+		}
+		public int getNumeroTarjetasRojas() {
+			return numeroTarjetasRojas;
+		}
+		public void setNumeroTarjetasRojas(int numeroTarjetasRojas) {
+			this.numeroTarjetasRojas = numeroTarjetasRojas;
+		}     
+		
+		
 
 }
+
+
