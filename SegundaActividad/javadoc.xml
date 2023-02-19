@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="." destdir="C:\Users\josei\Desktop\EDIX-1_DAM\EDIX-EEDD\WorkspaceEEDD\JavaDoc-JUnit\doc" doctitle="Javadoc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="" source="17" sourcepath="." splitindex="true" use="true" version="true"/>
+    </target>
+</project>

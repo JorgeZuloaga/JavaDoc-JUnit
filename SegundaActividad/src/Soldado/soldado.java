@@ -1,14 +1,20 @@
 package Soldado;
-
+/**
+ * Clase Soldado donde puede disparar y matar
+ * @author josei
+ *
+ */
 public class soldado {
 //-------------VARIABLES DE LA CLASE SOLDADO------------------//
 	
 	   private boolean estaMuerto;
        private int numeroBalas;
-       private int dorsal;
+       
        
 //------------------------MÉTODOS---------------------------//       
-	
+	/**
+	 * metodo que indica si tiene balas para poder disparar
+	 */
 	public boolean puedeDisparar() {
 
            if(this.numeroBalas > 0) {
@@ -18,7 +24,10 @@ public class soldado {
 
            return false;
 }
-	
+	/**
+	 * metodo que resta balas por disparar y mata al enemigo
+	 * @param objeto de tipo soldado
+	 */
        public void disparar(soldado sol) {
 
            this.numeroBalas--;
@@ -36,13 +45,6 @@ public class soldado {
 		this.estaMuerto = estaMuerto;
 	}
 
-	public int getDorsal() {
-		return dorsal;
-	}
-
-	public void setDorsal(int dorsal) {
-		this.dorsal = dorsal;
-	}
     public int getNumeroBalas() {
 		return numeroBalas;
 	}
