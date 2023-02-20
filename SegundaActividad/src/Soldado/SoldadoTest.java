@@ -14,8 +14,9 @@ import org.junit.jupiter.api.Test;
 public class SoldadoTest {
 	
 	/**
-	 * Prueba unitaria del método puedeDisparar de la clase Soldado.
+	 * Prueba unitaria del mï¿½todo puedeDisparar de la clase Soldado.
 	 * Comprueba que un soldado puede disparar si tiene balas y no puede si no tiene balas.
+     * @author JORGE
 	 */
 	
     @Test
@@ -29,7 +30,7 @@ public class SoldadoTest {
     }
     
     /**
-     * Prueba unitaria del método disparar de la clase Soldado.
+     * Prueba unitaria del mï¿½todo disparar de la clase Soldado.
      * Comprueba que un soldado puede disparar a otro soldado y este muere si se queda sin balas.
      */
 

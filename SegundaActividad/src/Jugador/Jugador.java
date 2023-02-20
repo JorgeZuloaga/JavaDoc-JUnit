@@ -1,7 +1,8 @@
 package Jugador;
 
 /**
- * Clase que representa a un jugador de fútbol.
+ * Clase que representa a un jugador de fï¿½tbol.
+ * @author JORGE
  */
 
 public class Jugador {
@@ -15,8 +16,8 @@ public class Jugador {
         
         /**
          * Asigna un dorsal al jugador.
-         * Si el dorsal está entre 1 y 30 inclusive, se asigna al jugador.
-         * Si el dorsal no está en ese rango, se establece como -1.
+         * Si el dorsal estï¿½ entre 1 y 30 inclusive, se asigna al jugador.
+         * Si el dorsal no estï¿½ en ese rango, se establece como -1.
          * @param dorsal el dorsal a asignar al jugador
          */
         	
@@ -36,9 +37,9 @@ public class Jugador {
         
         
         /**
-         * Indica si el jugador está expulsado o no.
-         * El jugador está expulsado si tiene dos tarjetas amarillas o una tarjeta roja.
-         * @return true si el jugador está expulsado, false en caso contrario
+         * Indica si el jugador estï¿½ expulsado o no.
+         * El jugador estï¿½ expulsado si tiene dos tarjetas amarillas o una tarjeta roja.
+         * @return true si el jugador estï¿½ expulsado, false en caso contrario
          */
         
 
@@ -84,8 +85,8 @@ public class Jugador {
 		}    
 		
 		/**
-	     * Obtiene el número de tarjetas amarillas del jugador.
-	     * @return el número de tarjetas amarillas del jugador
+	     * Obtiene el nï¿½mero de tarjetas amarillas del jugador.
+	     * @return el nï¿½mero de tarjetas amarillas del jugador
 	     */
 		
 	    public int getNumeroTarjetasAmarillas() {
@@ -93,8 +94,8 @@ public class Jugador {
 			}
 	    
 	    /**
-	     * Asigna el número de tarjetas amarillas del jugador.
-	     * @param numeroTarjetasAmarillas el número de tarjetas amarillas a asignar al jugador
+	     * Asigna el nï¿½mero de tarjetas amarillas del jugador.
+	     * @param numeroTarjetasAmarillas el nï¿½mero de tarjetas amarillas a asignar al jugador
 	     */
 
 		public void setNumeroTarjetasAmarillas(int numeroTarjetasAmarillas) {
@@ -102,8 +103,8 @@ public class Jugador {
 			}
 		
 		/**
-	     * Obtiene el número de tarjetas rojas del jugador.
-	     * @return el número de tarjetas rojas del jugador
+	     * Obtiene el nï¿½mero de tarjetas rojas del jugador.
+	     * @return el nï¿½mero de tarjetas rojas del jugador
 	     */
 
 		public int getNumeroTarjetasRojas() {
@@ -111,8 +112,8 @@ public class Jugador {
 			}
 		
 		 /**
-	     * Asigna el número de tarjetas rojas del jugador.
-	     * @param numeroTarjetasRojas el número de tarjetas rojas a asignar al jugador
+	     * Asigna el nï¿½mero de tarjetas rojas del jugador.
+	     * @param numeroTarjetasRojas el nï¿½mero de tarjetas rojas a asignar al jugador
 	     */
 
 		public void setNumeroTarjetasRojas(int numeroTarjetasRojas) {

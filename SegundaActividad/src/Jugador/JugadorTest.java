@@ -9,9 +9,10 @@ import org.junit.jupiter.api.Test;
 public class JugadorTest {
 	
 	/**
-     * Prueba el método ponerDorsal de la clase Jugador. 
+     * Prueba el mï¿½todo ponerDorsal de la clase Jugador. 
      * Comprueba que se asigna correctamente el valor del dorsal al jugador.
      * Comprueba que, si se introduce un valor fuera del rango permitido, se asigna el valor -1 al dorsal.
+	 * @author JORGE
      */
 
 	    @Test
@@ -25,9 +26,9 @@ public class JugadorTest {
 	    }
 	    
 	    /**
-	     * Prueba el método estaExpulsado de la clase Jugador. 
-	     * Comprueba que el método devuelve true si el jugador tiene dos tarjetas amarillas o una tarjeta roja. 
-	     * Comprueba que el método devuelve false si el jugador tiene una tarjeta amarilla y ninguna tarjeta roja.
+	     * Prueba el mï¿½todo estaExpulsado de la clase Jugador. 
+	     * Comprueba que el mï¿½todo devuelve true si el jugador tiene dos tarjetas amarillas o una tarjeta roja. 
+	     * Comprueba que el mï¿½todo devuelve false si el jugador tiene una tarjeta amarilla y ninguna tarjeta roja.
 	     */
 
 	    @Test

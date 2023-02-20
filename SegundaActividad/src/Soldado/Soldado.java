@@ -1,10 +1,9 @@
 package Soldado;
 
 /**
-
-La clase Soldado representa a un soldado con un número de balas y un estado de vida.
-
-Tiene métodos para determinar si el soldado puede disparar y para hacer que el soldado dispare.
+La clase Soldado representa a un soldado con un nï¿½mero de balas y un estado de vida.
+Tiene mï¿½todos para determinar si el soldado puede disparar y para hacer que el soldado dispare.
+ @author JORGE
 */
 
 public class Soldado {
@@ -34,8 +33,8 @@ public class Soldado {
 	
 	/**
 
-	Hace que el soldado dispare, disminuyendo su número de balas y estableciendo a otro soldado como muerto.
-	@param sol el soldado que será disparado
+	Hace que el soldado dispare, disminuyendo su nï¿½mero de balas y estableciendo a otro soldado como muerto.
+	@param sol el soldado que serï¿½ disparado
 	*/
 	
        public void disparar(Soldado sol) {
@@ -51,7 +50,7 @@ public class Soldado {
        
        /**
        Obtiene el estado de vida del soldado.
-       @return true si el soldado está muerto, false si está vivo
+       @return true si el soldado estï¿½ muerto, false si estï¿½ vivo
        */
        
 	public boolean isEstaMuerto() {
@@ -90,8 +89,8 @@ public class Soldado {
 	
 	/**
 
-	Obtiene el número de balas del soldado.
-	@return el número de balas del soldado
+	Obtiene el nï¿½mero de balas del soldado.
+	@return el nï¿½mero de balas del soldado
 	*/
 	
     public int getNumeroBalas() {
@@ -100,8 +99,8 @@ public class Soldado {
     
     /**
 
-    Establece el número de balas del soldado.
-    @param numeroBalas el nuevo número de balas del soldado
+    Establece el nï¿½mero de balas del soldado.
+    @param numeroBalas el nuevo nï¿½mero de balas del soldado
     */
     
     public void setNumeroBalas(int numeroBalas) {
