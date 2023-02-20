@@ -9,7 +9,7 @@ Tiene m�todos para determinar si el soldado puede disparar y para hacer que el
 public class Soldado {
 //-------------VARIABLES DE LA CLASE SOLDADO------------------//
 	
-	   private boolean estaMuerto;
+       private boolean estaMuerto;
        private int numeroBalas;
        private int dorsal;
        
