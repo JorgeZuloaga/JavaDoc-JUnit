@@ -1,5 +1,6 @@
 /**
-La clase SoldadoTest es una clase de prueba unitaria para la clase Soldado.
+* La clase SoldadoTest es una clase de prueba unitaria para la clase Soldado.
+* @author JORGE
 */
 
 package Soldado;
