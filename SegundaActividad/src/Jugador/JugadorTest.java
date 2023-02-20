@@ -1,3 +1,7 @@
+/**
+* La clase SoldadoTest es una clase de prueba unitaria para la clase Soldado.
+* @author JORGE
+*/
 package Jugador;
 
 import static org.junit.Assert.assertEquals;
@@ -12,7 +16,6 @@ public class JugadorTest {
      * Prueba el m�todo ponerDorsal de la clase Jugador. 
      * Comprueba que se asigna correctamente el valor del dorsal al jugador.
      * Comprueba que, si se introduce un valor fuera del rango permitido, se asigna el valor -1 al dorsal.
-	 * @author JORGE
      */
 
 	    @Test
