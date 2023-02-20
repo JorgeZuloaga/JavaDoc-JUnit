@@ -1,5 +1,5 @@
 /**
-* La clase SoldadoTest es una clase de prueba unitaria para la clase Soldado.
+* La clase JugadorTest es una clase de prueba unitaria para la clase Jugador.
 * @author JORGE
 */
 package Jugador;
